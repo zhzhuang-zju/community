@@ -3,7 +3,6 @@ name: Adopter Onboarding
 title: Adopter Onboarding for <name>
 about: Create a checklist of tasks for an organization to complete the onboarding process
 ---
-
 Welcome to Karmada Adopters Onboarding!
 
 This is an issue created to help onboard your organization into the [adopters](https://karmada.io/adopters/).
