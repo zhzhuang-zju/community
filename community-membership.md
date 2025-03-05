@@ -20,7 +20,7 @@ communication channels.
 ## Member
 
 Members are continuously active contributors in the community. They can have
-issues and PRs assigned to them, participate in SIGs through GitHub teams. 
+issues and PRs assigned to them, participate in SIGs through GitHub teams.
 Members are expected to remain active contributors to the community.
 
 **Defined by:** Member of the Karmada GitHub organization
@@ -42,9 +42,9 @@ Members are expected to remain active contributors to the community.
     - Sponsors must be reviewers or approvers in at least one OWNERS file within one of the Karmada GitHub organizations.
     - Sponsors must be from multiple member companies to demonstrate integration across community.
 - **[Open an issue][membership request] against the karmada-io/community repo**
-   - Ensure your sponsors are @mentioned on the issue
-   - Complete every item on the issue checklist
-   - Make sure that the list of contributions included is representative of your work on the project.
+    - Ensure your sponsors are @mentioned on the issue
+    - Complete every item on the issue checklist
+    - Make sure that the list of contributions included is representative of your work on the project.
 - Have your sponsoring reviewers reply confirmation of sponsorship: `+1`
 - Once your sponsors have responded, your request will be handled by the `Karmada GitHub Admin team`.
 
@@ -53,9 +53,9 @@ Members are expected to remain active contributors to the community.
 - Responsive to issues and PRs assigned to them
 - Responsive to mentions of SIG teams they are members of
 - Active owner of code they have contributed (unless ownership is explicitly transferred)
-  - Code is well tested
-  - Tests consistently pass
-  - Addresses bugs or issues discovered after code is accepted
+    - Code is well tested
+    - Tests consistently pass
+    - Addresses bugs or issues discovered after code is accepted
 - Members can do `/lgtm` on open PRs.
 - They can be assigned to issues and PRs, and people can ask members for reviews with a `/cc @username`.
 - Members can do `/close` to close PRs as well.
@@ -83,8 +83,8 @@ an [OWNERS] file (for repos using the bot).
 - Reviewed or merged at least 20 substantial PRs to the codebase
 - Knowledgeable about the codebase
 - Sponsored by a subproject approver
-  - With no objections from other approvers
-  - Done through PR to update the OWNERS file
+    - With no objections from other approvers
+    - Done through PR to update the OWNERS file
 - May either self-nominate, be nominated by an approver in this subproject.
 
 ### Responsibilities and privileges
@@ -94,8 +94,8 @@ an [OWNERS] file (for repos using the bot).
 
 - Code reviewer status may be a precondition to accepting large code contributions
 - Responsible for project quality control
-  - Focus on code quality and correctness, including testing and factoring
-  - May also review for more holistic issues, but not a requirement
+    - Focus on code quality and correctness, including testing and factoring
+    - May also review for more holistic issues, but not a requirement
 - Expected to be responsive to review requests
 - Assigned PRs to review related to subproject of expertise
 - Assigned test bugs related to subproject of expertise
@@ -121,8 +121,8 @@ in an [OWNERS] file (for repos using the bot).
 - Primary reviewer for at least 10 substantial PRs to the codebase
 - Reviewed or merged at least 30 PRs to the codebase
 - Nominated by a subproject owner
-  - With no objections from other subproject owners
-  - Done through PR to update the OWNERS file
+    - With no objections from other subproject owners
+    - Done through PR to update the OWNERS file
 
 ### Responsibilities and privileges
 
@@ -132,8 +132,8 @@ in an [OWNERS] file (for repos using the bot).
 - Approver status may be a precondition to accepting large code contributions
 - Demonstrate sound technical judgement
 - Responsible for project quality control
-  - Focus on holistic acceptance of contribution such as dependencies with other features, backwards / forwards
-    compatibility, API and flag definitions, etc
+    - Focus on holistic acceptance of contribution such as dependencies with other features, backwards / forwards
+      compatibility, API and flag definitions, etc
 - Expected to be responsive to review requests
 - Mentor contributors and reviewers
 - May approve code contributions for acceptance
@@ -149,17 +149,21 @@ directly or through delegation of these responsibilities.
 - Deep understanding of the technical goals and direction of the project.
 - Deep understanding of the technical domain (specifically the language) of the project.
 - Sustained contributions to design and direction by doing all of:
-  - Authoring and reviewing proposals
-  - Initiating, contributing and resolving discussions (e.g. emails, GitHub issues, meetings)
-  - Identifying subtle or complex issues in designs and implementation PRs
+    - Authoring and reviewing proposals
+    - Initiating, contributing and resolving discussions (e.g. emails, GitHub issues, meetings)
+    - Identifying subtle or complex issues in designs and implementation PRs
 - Nominated by a maintainer and pass super-majority(two-thirds/ 66.66%) vote.
+
+### The structure of the Maintainers
+
+- No single vendor can exceed 50% of the total number of personnel.
 
 ### Responsibilities and privileges
 
-- Maintaining the project: responsible for ensuring that the project remains stable, 
-  secure, and up-to-date, including fixing bugs, addressing security vulnerabilities 
+- Maintaining the project: responsible for ensuring that the project remains stable,
+  secure, and up-to-date, including fixing bugs, addressing security vulnerabilities
   and releasing new versions of the project as needed.
-- Managing contributions: responsible for managing contributions to the project, 
+- Managing contributions: responsible for managing contributions to the project,
   including code/non-code contributions, bug reports and feature requests.
 - Communicating with the community: responsible for communicating with the project's
   community, including users, developers, and other contributors. This may involve
@@ -171,6 +175,19 @@ directly or through delegation of these responsibilities.
 - Ensuring project sustainability: responsible for ensuring that the project remains
   sustainable over the long-term, including managing dependencies, ensuring compatibility
   with other projects, and planning for the future of the project.
+
+### Changes in Maintainership
+
+- If a Maintainer feels she/he can not fulfill the "Responsibilities and privileges", they are free to step down.
+- The community will adjust the list of maintainers based on the following factors
+    - The activity level and contribution level of the maintainer in the past six months.
+    - Balance of personnel among vendors.
+
+In such a case:
+
+- A PR is required to move the maintainer in question to the `emeritus` section of the MAINTAINERS.md.
+- Go to https://maintainers.cncf.io/ and open a PR to remove them under Karmada.
+- Remove them from the cncf-karmada-maintainers@lists.cncf.io mailing list.
 
 ## Inactive members
 
