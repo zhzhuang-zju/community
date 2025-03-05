@@ -11,6 +11,7 @@ This governance explains how the project is run.
 - [Code of Conduct Enforcement](#code-of-conduct)
 - [Security Response Team](#security-response-team)
 - [Voting](#voting)
+- [Roadmap](#roadmap)
 - [Modifications](#modifying-this-charter)
 
 ## Values
@@ -92,6 +93,24 @@ Any Maintainer may demand a vote be taken.
 Most votes require a simple majority of all Maintainers to succeed, except where
 otherwise noted. Two-thirds majority votes mean at least two-thirds of all 
 existing maintainers.
+
+## Roadmap
+### Rules
+- Define goals: Clearly articulate the long-term and short-term objectives of the project. These goals should align with the project's vision and values while meeting the needs of users or the community.
+- Prioritize: Rank the goals based on their importance and urgency. Considering resource and time constraints, ensure that the focus is placed on the most critical objectives.
+- Time-based planning: Break down the goals into milestones or phased tasks. Define specific objectives and measurable metrics for each phase to evaluate progress later on.
+- Transparency and communication: Share the roadmap openly with project stakeholders, including users, contributors, and other interested parties. This helps establish transparency and keeps everyone informed about the project's direction and plans.
+- Continuous adjustment: An open-source project roadmap should be a dynamic document that may require adjustments and updates over time as new insights are gained. Regularly review and reassess the roadmap, making modifications as needed.
+- Approach: When creating the roadmap, take into account the opinions and suggestions of the community to ensure that the project's development aligns with broad expectations and needs.
+- Engage in discussions with project users and contributors to gather feedback and understand their requirements. This can be done through channels such as mailing lists, forums, and social media.
+
+### Changes in project Roadmap
+- Proposals will be collected:
+  - from maintainers through internal meetings or the cncf-karmada-maintainers@lists.cncf.io mailing list.
+  - during the Karmada community regular meetings.
+  - from the feedback channels of Karmada Adopter Group.
+- Changes to the project roadmap should be initiated as a pull request on GitHub.
+- Maintainers will make decisions based on a majority vote.
 
 ## Modifying this Charter
 
